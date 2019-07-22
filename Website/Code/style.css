@@ -84,7 +84,8 @@ footer {
     text-align: center;
     padding: 20px;
     color: indigo;
-    background-image: linear-gradient(rgba(255,255,255,0.35),rgba(255,255,255,0.75)), url(../photos/texture.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.35),rgba(255,255,255,0.75)), url(https:/github.com/kwheelan/WRAPS-Website/raw/master/Website/photos/texture.jpg);
+
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -179,28 +180,28 @@ iframe {
 /* Add everything below here */
 
 #home {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,240,255,0.75)), url(../photos/clamshells_horizontal.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,240,255,0.75)), url(https:/github.com/kwheelan/WRAPS-Website/raw/master/Website/photos/clamshells_horizontal.jpg);
 
 }
 
 #news {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(240,255,240,0.75)), url(../photos/MF_bins_crop.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(240,255,240,0.75)), url(https:/github.com/kwheelan/WRAPS-Website/raw/master/Website/photos/MF_bins_crop.jpg);
 }
 
 #about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(225,255,255,0.75)), url(../photos/packaging_w_maud.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(225,255,255,0.75)), url(https:/github.com/kwheelan/WRAPS-Website/raw/master/Website/photos/packaging_w_maud.JPG);
 }
 
 #partners {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,240,0.75)), url(../photos/arugula.jpeg);
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,240,0.75)), url(https:/github.com/kwheelan/WRAPS-Website/raw/master/Website/photos/arugula.jpeg);
 }
 
 #forms {
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,240,0.75)), url(../photos/food.jpg);
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,240,0.75)), url(https:/github.com/kwheelan/WRAPS-Website/raw/master/Website/photos/food.jpg);
 }
 
 #contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,240,240,0.75)), url(../photos/Mike_Curtain_visit.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,240,240,0.75)), url(https:/github.com/kwheelan/WRAPS-Website/raw/master/Website/photos/Mike_Curtain_visit.JPG);
 }
 
 .headshot{
