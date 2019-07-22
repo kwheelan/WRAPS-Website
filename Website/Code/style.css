@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    margin-top: 59px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    line-height: 75px;
+    background-color: indigo;
+    align-items: center;
+    box-shadow: 0 0 35px 0 indigo;
+}
+
+header * {
+    margin-left: 20px;
+    display: inline;
+    height: 65px;
+}
+
+img {
+    image-orientation: from-image;
+}
+
+a:link{
+  color: purple
+}
+
+a:visited{
+  color: purple
+}
+
+a:hover{
+  color: orange
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: indigo;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: lavender;
+  color: black;
+}
+
+.topnav-right {
+  position: absolute;
+  background-color: purple;
+  right: 0;
+}
+
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: indigo;
+    background-image: linear-gradient(rgba(255,255,255,0.35),rgba(255,255,255,0.75)), url(../photos/texture.jpg);
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+  margin-left: 30px;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.newsimage {
+  flex: 33.333%
+  padding: 15px
+}
+
+.newstext {
+  padding: 25px
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#home h1 {
+    font-size: 3em;
+    margin-left: 50px;
+}
+
+#about p {
+    width: 800px;
+    padding: 5px;
+}
+
+#partners p {
+    width: 300px;
+    padding: 5px;
+}
+
+#news p {
+  width: 300px;
+  padding: 5px;
+}
+
+#forms p{
+  width: 300px;
+  padding: 5px;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+iframe {
+ border: 0;
+}
+
+.button {
+  background-color: lavender;
+  color: indigo;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 2px solid indigo;
+  cursor: pointer;
+}
+
+.button1{
+  background-color: lavender;
+  color: indigo;
+}
+
+/* Add everything below here */
+
+#home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,240,255,0.75)), url(../photos/clamshells_horizontal.jpg);
+
+}
+
+#news {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(240,255,240,0.75)), url(../photos/MF_bins_crop.jpg);
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(225,255,255,0.75)), url(../photos/packaging_w_maud.jpg);
+}
+
+#partners {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,240,0.75)), url(../photos/arugula.jpeg);
+}
+
+#forms {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,240,0.75)), url(../photos/food.jpg);
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,240,240,0.75)), url(../photos/Mike_Curtain_visit.jpg);
+}
+
+.headshot{
+  margin: 0px 20px;
+  width: 120px;
+  height: 120px
+}
